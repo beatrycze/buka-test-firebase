@@ -1,0 +1,184 @@
+{
+  "bookForms" : 
+  [ 
+    null,
+    {
+      "id" : 1,
+      "type" : "poetry"
+    }, 
+    {
+      "id" : 2,
+      "type" : "prose"
+    }, 
+    {
+      "id" : 3,
+      "type" : "drama"
+    } 
+  ],
+  "bookGenres" : 
+  [ 
+    null,
+    {
+      "id" : 1,
+      "type" : "novel"
+    },
+    {
+      "id" : 2,
+      "type" : "reportage"
+    },
+    {
+      "id" : 3,
+      "type" : "biography"
+    },
+    {
+      "id" : 4,
+      "type" : "interview"
+    },
+    {
+      "id" : 5,
+      "type" : "essay"
+    },
+    {
+      "id" : 6,
+      "type" : "autobiography"
+    },
+    {
+      "id" : 7,
+      "type" : "diaries"
+    },
+    {
+      "id" : 8,
+      "type" : "letters"
+    },
+    {
+      "id" : 9,
+      "type" : "feuilleton"
+    }
+  ],
+  "bookTypes" : 
+  [ 
+    null,
+    {
+      "id" : 1,
+      "type" : "paper book"
+    }, 
+    {
+      "id" : 2,
+      "type" : "ebook"
+    }, 
+    {
+      "id" : 3,
+      "type" : "audiobook"
+    } 
+  ],
+  "books" : 
+  [ 
+    null,
+    {
+      "author" : "Andrzej Stasiuk",
+      "bookFormId" : 2,
+      "bookGenreId" : 1,
+      "bookTypeId" : 1,
+      "id" : 1,
+      "isborrowed" : true,
+      "title" : "Osiołkiem"
+    }, 
+    {
+      "author" : "Andrzej Stasiuk",
+      "bookFormId" : 2,
+      "bookGenreId" : 1,
+      "bookTypeId" : 2,
+      "id" : 2,
+      "isborrowed" : false,
+      "title" : "Nie ma ekspresów przy żółtych drogach"
+    }, 
+    {
+      "author" : "Andrzej Stasiuk",
+      "bookFormId" : 2,
+      "bookGenre" : 1,
+      "bookTypeId" : 1,
+      "id" : 3,
+      "isborrowed" : false,
+      "title" : "Jadąc do Babadag"
+    },
+    {
+      "author" : "Andrzej Stasiuk",
+      "bookFormId" : 2,
+      "bookGenre" : 4,
+      "bookTypeId" : 1,
+      "id" : 4,
+      "isborrowed" : true,
+      "title" : "Życie to jednak strata jest"
+    },
+    {
+      "author" : "Andrzej Stasiuk",
+      "bookFormId" : 2,
+      "bookGenre" : 1,
+      "bookTypeId" : 1,
+      "id" : 5,
+      "isborrowed" : false,
+      "title" : "Dukla"
+    },
+    {
+      "author" : "Maciej Malicki",
+      "bookFormId" : 2,
+      "bookGenre" : 1,
+      "bookTypeId" : 1,
+      "id" : 6,
+      "isborrowed" : false,
+      "title" : "Wszystko jest"
+    },
+    {
+      "author" : "Maciej Malicki",
+      "bookFormId" : 2,
+      "bookGenre" : 1,
+      "bookTypeId" : 1,
+      "id" : 7,
+      "isborrowed" : false,
+      "title" : "Saga ludu"
+    },
+    {
+      "author" : "Mariusz Szczygieł",
+      "bookFormId" : 2,
+      "bookGenre" : 2,
+      "bookTypeId" : 3,
+      "id" : 7,
+      "isborrowed" : false,
+      "title" : "Niedziela, która zdarzyła się w środę"
+    }
+  ],
+  "friends" : 
+  [ 
+    null,
+    {
+      "name" : "Adela",
+      "surname" : "K"
+    }, 
+    {
+      "name" : "Joanna",
+      "surname" : "Z"
+    }, 
+    {
+      "name" : "Donata",
+      "surname" : "W"
+    }, 
+    {
+      "name" : "Małgorzata",
+      "surname" : "S"
+    } 
+  ],
+  "wishList" : 
+  [ 
+    null,
+    {
+      "author" : "Kamil Bałuk",
+      "id" : 1,
+      "title" : "Wszystkie dzieci Louisa"
+    }, 
+    {
+      "author" : "Filip Springer",
+      "id" : 2,
+      "title" : "Księga zachwytów"
+    }
+  ]
+}

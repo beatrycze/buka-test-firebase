@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Buka - test</title>
+    <script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyAh_VaZs3RFcKF95Zj4wi9lJdFbfZr62EE",
+        authDomain: "buka-test.firebaseapp.com",
+        databaseURL: "https://buka-test.firebaseio.com",
+        projectId: "buka-test",
+        storageBucket: "buka-test.appspot.com",
+        messagingSenderId: "551746615749"
+    };
+    firebase.initializeApp(config);
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $('document').ready(function() {
+        $('#book-types-list').on('click', function() {
+            $.get('http://localhost:3000/bookTypes')
+            .then(function(response) {
+                console.log(response);
+            });
+        });
+
+        $('#books-list').on('click', function() {
+            $.get('http://localhost:3000/books')
+            .then(function(response) {
+                console.log(response);
+            });
+        });
+
+        $('#firebase-book-types-list').on('click', function() {
+            $.get('https://buka-test.firebaseio.com/bookTypes.json')
+            .then(console.log);
+        });
+
+        $('#firebase-books-list').on('click', function() {
+            $.get('https://buka-test.firebaseio.com/books.json')
+            .then(console.log);
+        });
+    });
+    </script>
+</head>
+<body>
+    <div style="margin-top: 30px;">
+        <div style="display: inline;"><button id="book-types-list">Get book types [Faker]</button></div>
+        <div style="display: inline;"><button id="firebase-book-types-list" style="background-color:orange; border-color: orange;">Get book types [Firebase]</button></div>
+    </div>
+    <div style="margin-top: 30px;">
+        <div style="display: inline;"><button id="books-list">Get books list [Faker]</button></div>
+        <div style="display: inline;"><button id="firebase-books-list" style="background-color:orange; border-color: orange;">Get books list [Firebase]</button></div>
+    </div>
+</body>
+</html>
