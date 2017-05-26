@@ -34,11 +34,23 @@
 
         $('#firebase-book-types-list').on('click', function() {
             $.get('https://buka-test.firebaseio.com/bookTypes.json')
+            .then(function(response){ // handle firebase (!)
+                if(response[0] === null){
+                    response = response.slice(1)
+                }
+                return response;
+            })
             .then(console.log);
         });
 
         $('#firebase-books-list').on('click', function() {
             $.get('https://buka-test.firebaseio.com/books.json')
+            .then(function(response){ // handle firebase (!)
+                if(response[0] === null){
+                    response = response.slice(1)
+                }
+                return response;
+            })
             .then(console.log);
         });
     });
@@ -46,11 +58,11 @@
 </head>
 <body>
     <div style="margin-top: 30px;">
-        <div style="display: inline;"><button id="book-types-list">Get book types [Faker]</button></div>
+        <div style="display: inline;"><button id="book-types-list">Get book types [Mock]</button></div>
         <div style="display: inline;"><button id="firebase-book-types-list" style="background-color:orange; border-color: orange;">Get book types [Firebase]</button></div>
     </div>
     <div style="margin-top: 30px;">
-        <div style="display: inline;"><button id="books-list">Get books list [Faker]</button></div>
+        <div style="display: inline;"><button id="books-list">Get books list [Mock]</button></div>
         <div style="display: inline;"><button id="firebase-books-list" style="background-color:orange; border-color: orange;">Get books list [Firebase]</button></div>
     </div>
 </body>
