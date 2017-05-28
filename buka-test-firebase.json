@@ -71,99 +71,97 @@
       "type" : "audiobook"
     } 
   ],
-  "books" : 
-  [ 
-    null,
-    {
-      "id" : 1,
+  "books": {
+    "-KlFAbMnaIbXJvNw98kw": {
       "author" : "Andrzej Stasiuk",
       "title" : "Osiołkiem",
       "bookFormId" : 2,
       "bookGenreId" : 1,
       "bookTypeId" : 1,
-      "isBorrowed" : true
-    }, 
-    {
-      "id" : 2,
+      "isBorrowed" : true,
+      "description" : "Ukraina, Rosja, Azja. Narrator napotyka ludzi, duchy i policjantów. Ale przede wszystkim opowiada o swojej miłości do samochodów. Snuje sowizdrzalską elegię na odejście silnika spalinowego. (źródło opisu: czarne.com.pl)"
+    },
+    "-KlFAbMnaIbXJskljdgl": {
       "author" : "Andrzej Stasiuk",
       "title" : "Nie ma ekspresów przy żółtych drogach",
       "bookFormId" : 2,
       "bookGenreId" : 1,
       "bookTypeId" : 2,
-      "isBorrowed" : false
+      "isBorrowed" : false,
+      "description" : "…staje się co jakiś czas, żeby odpocząć, żeby się obejrzeć, żeby policzyć, ile już było, a ile jeszcze zostało. Taka jest ta książka: sprawdzam gdzie byłem, gdzie jestem, dokąd się wybieram. Oprócz tego oczywiście niezwykła ilość celnych spostrzeżeń, głębokich przemyśleń oraz barwnych opisów. Z szacunkiem: Autor (źródło opisu: czarne.com.pl)"
     }, 
-    {
-      "id" : 3,
+    "-KlFAbMnaIbXJ0978w5j": {
       "author" : "Andrzej Stasiuk",
       "title" : "Jadąc do Babadag",
       "bookFormId" : 2,
       "bookGenreId" : 1,
       "bookTypeId" : 1,
-      "isBorrowed" : false
+      "isBorrowed" : false,
+      "description" : "Nagroda Literacka NIKE 2005"
     },
-    {
-      "id" : 4,
+    "-KlFAbJFd&78dskljdgl": {
       "author" : "Andrzej Stasiuk",
       "title" : "Życie to jednak strata jest",
       "bookFormId" : 2,
       "bookGenreId" : 4,
       "bookTypeId" : 1,
-      "isBorrowed" : true
+      "isBorrowed" : true,
+      "description" : "Zapis ich spotkań to niekończąca się opowieść Andrzeja Stasiuka o życiu i książkach, o kobietach i miłości, o podróżach i samochodach, o Polsce i Rosji, o religii i polityce. Czytelnik wyrusza za nim w podróż z Wołowca na Podlasie, do Albanii i na Wschód aż do Mongolii i  Chin, a przede wszystkim po wewnętrznym krajobrazie osobistych wspomnień, gdyż – jak mówi Stasiuk – 'Moje życie jest moim zawodem'. (źródło opisu: czarne.com.pl)"
     },
-    {
-      "id" : 5,
+    "-KlFAbjkfd8904378w5j": {
       "author" : "Andrzej Stasiuk",
       "title" : "Dukla",
       "bookFormId" : 2,
       "bookGenreId" : 1,
       "bookTypeId" : 1,
-      "isBorrowed" : false
+      "isBorrowed" : false,
+      "description" : "Zbiór prozy artystycznej Stasiuka jest stworzony z natury, wyobraźni i cywilizacyjnego śmietnika. Zanim zacząłem go czytać, nie przypuszczałem, że można tak malować prozą. Mierzy z rozmysłem i nie znam w prozie celniejszych ani bardziej rewelacyjnych metafor. (Henryk Grynberg, źródło opisu: czarne.com.pl)"
     },
-    {
-      "id" : 6,
+    "-KlFAbJFd&78dshagdsy": {
       "author" : "Maciej Malicki",
       "title" : "Wszystko jest",
       "bookFormId" : 2,
       "bookGenreId" : 1,
       "bookTypeId" : 1,
-      "isBorrowed" : false
+      "isBorrowed" : false,
+      "description" : "Czwarta powieść Macieja Malickiego „Wszystko jes”t to kolejna, rozpoznawalna już, charakterystyczna dla Malickiego przygoda ucha, wzbogacona o „przygodę oka” i „przygodę lektury”. Maciej Malicki z absolutną afirmacją opisuje świat, w którym wszystko, każdy najmniejszy szczegół, jest równie ważne. Pejzaż zapisany przez Malickiego to świat w miniaturze — jest w nim morze i rzeka, i góry. Jest lotnisko i stacja kolejowa. Są psy i koty. Bogaci i żebracy. Kaleki i ludzie zdrowi. Mówiący i niemowy. Jest życie i umieranie. Jest radość i smutek. Początek i koniec. Maciej Malicki stwarza świat od nowa i mówi nam: to jedyny, jaki mamy. I wszystko w nim jest. „Droga, tory kolejowe, pociąg, morze, góry, dom, kawa, papierosy, bar, cmentarz, pobocze, pies, las, rzeka, most, książki, kanapa, płyty, ławka, stacja, piwo, szkoła, sklep, warzywniak, kościół, ludzie, fotel, bliscy etc. Wszystko jest. Nie ma powrotu”. (Magazyn Literacki Książki, źródło opisu: czarne.com.pl)"
     },
-    {
-      "id" : 7,
+    "-KlFAbjkfd89043iuqii": {
       "author" : "Maciej Malicki",
       "title" : "Saga ludu",
       "bookFormId" : 2,
       "bookGenreId" : 1,
       "bookTypeId" : 1,
-      "isBorrowed" : false
+      "isBorrowed" : false,
+      "description" : "No i proszę: można opisać życie. Trzeba tylko zatrzymać to, co umyka, ponieważ nie podejrzewamy, że jest coś warte. Trzeba tylko zapisać pamięć o rzeczach codziennych, bo innych przecież nie było... Piękna i czuła książka. Amen. (Andrzej Stasiuk, źródło opisu: czarne.com.pl)"
     },
-    {
-      "id" : 8,
+    "-KlFAbjkfd89043ihagt": {
       "author" : "Mariusz Szczygieł",
       "title" : "Niedziela, która zdarzyła się w środę",
       "bookFormId" : 2,
       "bookGenreId" : 2,
       "bookTypeId" : 3,
-      "isBorrowed" : false
+      "isBorrowed" : false,
+      "description" : "Wciąż zdumiewa mnie popularność tej książki. To już trzecie wydanie moich najlepszych reportaży z początku lat dziewięćdziesiątych; najstarszy ma dwadzieścia pięć lat. Młodzi ludzie piszą w internecie, że to opowieść o ich dzieciństwie. Często traktują ten zbiór jak mitologię swojej młodości. Nawet książkę historyczną. Kiedy ja ją czytam, widzę, jak inny miałem sposób pisania: niedojrzały, migawkowy, obrazkowy. Ale widzę też pasję dwudziestokilkuletniego autora – urodzonego w małym mieście – który chce pokazać, co stało się w podobnych miastach po upadku komunizmu. Najwięcej pasji widzę w szukaniu szczegółów. Takich, które mogą być syntezą życia moich bohaterów. Czasem wyziera z tej książki złośliwy humor. Nie jest on mój. To humor Losu, który dopadł Polaków. Ja go tylko zauważyłem i zapisałem. Mnie samemu nie było do śmiechu. (Mariusz Szczygieł, źródło opisu: czarne.com.pl)"
     }
-  ],
+  },
   "friends" : 
   [ 
     null,
     {
-      "name" : "Adela",
-      "surname" : "K"
+      "name" : "Anna",
+      "surname" : "M"
     }, 
     {
       "name" : "Joanna",
-      "surname" : "Z"
+      "surname" : "B"
     }, 
     {
-      "name" : "Donata",
+      "name" : "Danuta",
       "surname" : "W"
     }, 
     {
-      "name" : "Małgorzata",
+      "name" : "Zyta",
       "surname" : "S"
     } 
   ],
