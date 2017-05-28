@@ -75,76 +75,76 @@
   [ 
     null,
     {
+      "id" : 1,
       "author" : "Andrzej Stasiuk",
+      "title" : "Osiołkiem",
       "bookFormId" : 2,
       "bookGenreId" : 1,
       "bookTypeId" : 1,
-      "id" : 1,
-      "isborrowed" : true,
-      "title" : "Osiołkiem"
+      "isBorrowed" : true
     }, 
     {
+      "id" : 2,
       "author" : "Andrzej Stasiuk",
+      "title" : "Nie ma ekspresów przy żółtych drogach",
       "bookFormId" : 2,
       "bookGenreId" : 1,
       "bookTypeId" : 2,
-      "id" : 2,
-      "isborrowed" : false,
-      "title" : "Nie ma ekspresów przy żółtych drogach"
+      "isBorrowed" : false
     }, 
     {
-      "author" : "Andrzej Stasiuk",
-      "bookFormId" : 2,
-      "bookGenre" : 1,
-      "bookTypeId" : 1,
       "id" : 3,
-      "isborrowed" : false,
-      "title" : "Jadąc do Babadag"
+      "author" : "Andrzej Stasiuk",
+      "title" : "Jadąc do Babadag",
+      "bookFormId" : 2,
+      "bookGenreId" : 1,
+      "bookTypeId" : 1,
+      "isBorrowed" : false
     },
     {
-      "author" : "Andrzej Stasiuk",
-      "bookFormId" : 2,
-      "bookGenre" : 4,
-      "bookTypeId" : 1,
       "id" : 4,
-      "isborrowed" : true,
-      "title" : "Życie to jednak strata jest"
-    },
-    {
       "author" : "Andrzej Stasiuk",
+      "title" : "Życie to jednak strata jest",
       "bookFormId" : 2,
-      "bookGenre" : 1,
+      "bookGenreId" : 4,
       "bookTypeId" : 1,
+      "isBorrowed" : true
+    },
+    {
       "id" : 5,
-      "isborrowed" : false,
-      "title" : "Dukla"
+      "author" : "Andrzej Stasiuk",
+      "title" : "Dukla",
+      "bookFormId" : 2,
+      "bookGenreId" : 1,
+      "bookTypeId" : 1,
+      "isBorrowed" : false
     },
     {
-      "author" : "Maciej Malicki",
-      "bookFormId" : 2,
-      "bookGenre" : 1,
-      "bookTypeId" : 1,
       "id" : 6,
-      "isborrowed" : false,
-      "title" : "Wszystko jest"
-    },
-    {
       "author" : "Maciej Malicki",
+      "title" : "Wszystko jest",
       "bookFormId" : 2,
-      "bookGenre" : 1,
+      "bookGenreId" : 1,
       "bookTypeId" : 1,
-      "id" : 7,
-      "isborrowed" : false,
-      "title" : "Saga ludu"
+      "isBorrowed" : false
     },
     {
-      "author" : "Mariusz Szczygieł",
-      "bookFormId" : 2,
-      "bookGenre" : 2,
-      "bookTypeId" : 3,
       "id" : 7,
-      "isborrowed" : false,
-      "title" : "Niedziela, która zdarzyła się w środę"
+      "author" : "Maciej Malicki",
+      "title" : "Saga ludu",
+      "bookFormId" : 2,
+      "bookGenreId" : 1,
+      "bookTypeId" : 1,
+      "isBorrowed" : false
+    },
+    {
+      "id" : 8,
+      "author" : "Mariusz Szczygieł",
+      "title" : "Niedziela, która zdarzyła się w środę",
+      "bookFormId" : 2,
+      "bookGenreId" : 2,
+      "bookTypeId" : 3,
+      "isBorrowed" : false
     }
   ],
   "friends" : 
